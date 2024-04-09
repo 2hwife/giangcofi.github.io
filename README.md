@@ -1,3 +1,17 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Points Calculator</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/67627577?v=4">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
 <div class="container">
     <h2 class="p-3">Bảng tính điểm rương Kho Báu</h2>
     <form onsubmit="calculate_stellar_points(event, this)">
@@ -12,7 +26,7 @@
                 placeholder="Nhập số lượng Rương Tím">
         </div>
         <div class="mb-3">
-            <label for="yellow_treasure" class="form-label" style="color:yellow;">Rương Vàng</label>
+            <label for="yellow_treasure" class="form-label" style="color:orange;">Rương Vàng</label>
             <input type="number" min="0" class="form-control" id="yellow_treasure"
                 placeholder="Nhập số lượng Rương Vàng">
         </div>
@@ -76,7 +90,7 @@
             `<ul>
                 <li>Mở <b style="color:blue;">${treasure_counters[0] || 0} </b> Rương Xanh lam</li>
                 <li>Mở <b style="color:purple;">${treasure_counters[1] || 0} </b> Rương Tím</li>
-                <li>Mở <b style="color:yellow;">${treasure_counters[2] || 0} </b> Rương Vàng</li>
+                <li>Mở <b style="color:orange;">${treasure_counters[2] || 0} </b> Rương Vàng</li>
                 <li>Mở <b style="color:red;">${treasure_counters[3] || 0} </b> Rương Đỏ</li>
             </ul>`;
     }
