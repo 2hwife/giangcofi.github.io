@@ -12,7 +12,7 @@
                 placeholder="Nhập số lượng Rương Tím">
         </div>
         <div class="mb-3">
-            <label for="yellow_treasure" class="form-label" style="color:#8B8000;">Rương Vàng</label>
+            <label for="yellow_treasure" class="form-label" style="color:yellow;">Rương Vàng</label>
             <input type="number" min="0" class="form-control" id="yellow_treasure"
                 placeholder="Nhập số lượng Rương Vàng">
         </div>
@@ -76,7 +76,7 @@
             `<ul>
                 <li>Mở <b style="color:blue;">${treasure_counters[0] || 0} </b> Rương Xanh lam</li>
                 <li>Mở <b style="color:purple;">${treasure_counters[1] || 0} </b> Rương Tím</li>
-                <li>Mở <b style="color:#8B8000;">${treasure_counters[2] || 0} </b> Rương Vàng</li>
+                <li>Mở <b style="color:yellow;">${treasure_counters[2] || 0} </b> Rương Vàng</li>
                 <li>Mở <b style="color:red;">${treasure_counters[3] || 0} </b> Rương Đỏ</li>
             </ul>`;
     }
