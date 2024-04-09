@@ -71,13 +71,13 @@
             }
         }
 
-        document.getElementById("result").innerHTML = `Bạn sẽ nhận được <b>${points_earned}</b> điểm${points_earned > 0 ? 's' : ''}`;
+        document.getElementById("result").innerHTML = `Bạn sẽ nhận được <b>${points_earned}</b> điểm${points_earned > 0 ? '' : ''}`;
         document.getElementById("result_info").innerHTML =
             `<ul>
-                <li>Mở <b style="color:blue;">${treasure_counters[0] || 0} Xanh lam</b> Rương Xanh lam</li>
-                <li>Mở <b style="color:purple;">${treasure_counters[1] || 0} Tím</b> Rương Tím</li>
-                <li>Mở <b style="color:#8B8000;">${treasure_counters[2] || 0} Vàng</b> Rương Vàng</li>
-                <li>Mở <b style="color:red;">${treasure_counters[3] || 0} Đỏ</b> Rương Đỏ</li>
+                <li>Mở <b style="color:blue;">${treasure_counters[0] || 0} </b> Rương Xanh lam</li>
+                <li>Mở <b style="color:purple;">${treasure_counters[1] || 0} </b> Rương Tím</li>
+                <li>Mở <b style="color:#8B8000;">${treasure_counters[2] || 0} </b> Rương Vàng</li>
+                <li>Mở <b style="color:red;">${treasure_counters[3] || 0} </b> Rương Đỏ</li>
             </ul>`;
     }
 </script>
