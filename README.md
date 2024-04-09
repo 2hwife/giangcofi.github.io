@@ -2,7 +2,7 @@
     <h2 class="p-3">Bảng tính điểm rương Kho Báu</h2>
     <form onsubmit="calculate_stellar_points(event, this)">
         <div class="mb-3">
-            <label for="blue_treasure" class="form-label" style="color:blue;">Rương Xanh dương</label>
+            <label for="blue_treasure" class="form-label" style="color:blue;">Rương Xanh lam</label>
             <input type="number" min="0" class="form-control" id="blue_treasure"
                 placeholder="Nhập số lượng Rương Xanh lam">
         </div>
